@@ -1,8 +1,7 @@
-import mysql from "mysql";
+import express from "express";
 
-export const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: process.env.DB_KEY,
-  database: "blog",
-});
+const router = express.Router();
+
+//TODO
+
+export default router;
